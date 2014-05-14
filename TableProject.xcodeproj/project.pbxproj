@@ -20,6 +20,7 @@
 		25C9BB451923D35700D11778 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25C9BB431923D35700D11778 /* InfoPlist.strings */; };
 		25C9BB471923D35700D11778 /* TableProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C9BB461923D35700D11778 /* TableProjectTests.m */; };
 		25C9BB521923D42200D11778 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C9BB511923D42200D11778 /* FirstTableViewController.m */; };
+		25C9BB551923D91900D11778 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C9BB541923D91900D11778 /* CustomTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		25C9BB461923D35700D11778 /* TableProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableProjectTests.m; sourceTree = "<group>"; };
 		25C9BB501923D42200D11778 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
 		25C9BB511923D42200D11778 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		25C9BB531923D91900D11778 /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		25C9BB541923D91900D11778 /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 			children = (
 				25C9BB301923D35700D11778 /* AppDelegate.h */,
 				25C9BB311923D35700D11778 /* AppDelegate.m */,
+				25C9BB531923D91900D11778 /* CustomTableViewController.h */,
+				25C9BB541923D91900D11778 /* CustomTableViewController.m */,
 				25C9BB501923D42200D11778 /* FirstTableViewController.h */,
 				25C9BB511923D42200D11778 /* FirstTableViewController.m */,
 				25C9BB331923D35700D11778 /* Images.xcassets */,
@@ -244,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C9BB551923D91900D11778 /* CustomTableViewController.m in Sources */,
 				25C9BB321923D35700D11778 /* AppDelegate.m in Sources */,
 				25C9BB2E1923D35700D11778 /* main.m in Sources */,
 				25C9BB521923D42200D11778 /* FirstTableViewController.m in Sources */,

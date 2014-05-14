@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "FirstTableViewController.h"
+#import "CustomTableViewController.h"
 
 @implementation AppDelegate
 
@@ -16,7 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController: [[FirstTableViewController alloc] init]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController: [[CustomTableViewController alloc] init]];
     [self.window makeKeyAndVisible];
     return YES;
 }
